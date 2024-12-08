@@ -361,8 +361,8 @@ async def overall_stats(client, CallbackQuery, _):
 **sᴛᴏʀᴀɢᴇ ᴜsᴇᴅ:** {used[:4]} ɢiʙ
 **sᴛᴏʀᴀɢᴇ ʟᴇғᴛ:** {free[:4]} ɢiʙ
 
-**sᴇʀᴠᴇᴅ ᴄʜᴀᴛs:** {3347} 
-**sᴇʀᴠᴇᴅ ᴜsᴇʀs:** {5412} 
+**sᴇʀᴠᴇᴅ ᴄʜᴀᴛs:** {served_chats} 
+**sᴇʀᴠᴇᴅ ᴜsᴇʀs:** {served_users} 
 **ʙʟᴏᴄᴋᴇᴅ ᴜsᴇʀs:** {blocked} 
 **sᴜᴅᴏ ᴜsᴇʀs:** {sudoers} 
 
