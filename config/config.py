@@ -52,7 +52,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/newiseland/sapnaextra",
+    "https://github.com/newiseland/UPREPONEW2",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
