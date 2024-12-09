@@ -39,11 +39,11 @@ def private_panel(_):
         [
              InlineKeyboardButton(
                 text="❍ 𝐎ᴡɴᴇʀ ❍",
-                url=f"https://t.me/ll_ITZ_NAWAB_HERE_ll",
+                url=f"https://t.me/ll_SARKAR_OWNER_ll",
             ),
             InlineKeyboardButton(
                 text="❍ 𝐀ʟʟ 𝐁ᴏᴛs ❍",
-                url=f"https://t.me/TG_NAME_STYLE/4368",
+                url=f"https://t.me/SARKAR_UPDATE",
             )
         ],
         [
