@@ -121,7 +121,7 @@ SUPPORT_GROUP = getenv(
 )  # Example:- https://t.me/ll_MOI_ll
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_NAME_STYLE"
+    "SUPPORT_GROUP", "https://t.me/AlonesHeaven"
 )  # Example:- https://t.me/TG_NAME_STYLE
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
@@ -144,7 +144,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/newiseland/UPREPONEW")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/DilwarHosen/Pvt")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
