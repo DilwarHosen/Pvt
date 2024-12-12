@@ -86,14 +86,16 @@ def stream_markup_timerr(_, videoid, chat_id, played, dur):
                 text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/FakeAlony"
             ),
             InlineKeyboardButton(
-                text="❰𝐀𝐋𝐋 𝐁𝐎𝐓𝐒❱", url="https://t.me/AloneXBots"
+                text="❰𝘾𝙃𝘼𝙉𝙉𝙀𝙇❱", url="https://t.me/AloneXBots"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❰𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄❱", url="https://t.me/FakeAlony"
+                text="❰𝙋𝙍𝙊𝙈𝙊𝙏𝙄𝙊𝙉 𝘼𝙑𝘼𝙄𝙇𝘼𝘽𝙇𝙀❱", url="https://t.me/FakeAlony"
             ),
         ],
+        [InlineKeyboardButton(
+             text="❰𝘾𝙇𝙊𝙎𝙀❱", callback_data="close")],
     ]
 
     return buttons
@@ -155,14 +157,16 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/FakeAlony"
             ),
             InlineKeyboardButton(
-                text="❰𝐀𝐋𝐋 𝐁𝐎𝐓𝐒❱", url="https://t.me/AloneXBots"
+                text="❰𝘾𝙃𝘼𝙉𝙉𝙀𝙇❱", url="https://t.me/AloneXBots"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❰𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄❱", url="https://t.me/FakeAlony"
+                text="❰𝙋𝙍𝙊𝙈𝙊𝙏𝙄𝙊𝙉 𝘼𝙑𝘼𝙄𝙇𝘼𝘽𝙇𝙀❱", url="https://t.me/FakeAlony"
             ),
         ],
+        [InlineKeyboardButton(
+             text="❰𝘾𝙇𝙊𝙎𝙀❱", callback_data="close")],
     ]
 
     return buttons
@@ -418,15 +422,17 @@ def stream_markup(_, videoid, chat_id):
                 text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/FakeAlony"
             ),
             InlineKeyboardButton(
-                text="❰𝐀𝐋𝐋 𝐁𝐎𝐓𝐒❱", url="https://t.me/AloneXBots"
+                text="❰𝘾𝙃𝘼𝙉𝙉𝙀𝙇❱", url="https://t.me/AloneXBots"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❰𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄❱", url="https://t.me/FakeAlony"
+                text="❰𝙋𝙍𝙊𝙈𝙊𝙏𝙄𝙊𝙉 𝘼𝙑𝘼𝙄𝙇𝘼𝘽𝙇𝙀❱", url="https://t.me/FakeAlony"
             ),
         ],
-     ]
+        [InlineKeyboardButton(
+             text="❰𝘾𝙇𝙊𝙎𝙀❱", callback_data="close")],
+    ]
 
     return buttons
 
@@ -547,14 +553,16 @@ def queue_markup(_, videoid, chat_id):
                 text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/FakeAlony"
             ),
             InlineKeyboardButton(
-                text="❰𝐀𝐋𝐋 𝐁𝐎𝐓𝐒❱", url="https://t.me/AloneXBots"
+                text="❰𝘾𝙃𝘼𝙉𝙉𝙀𝙇❱", url="https://t.me/AloneXBots"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❰𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄❱", url="https://t.me/FakeAlony"
+                text="❰𝙋𝙍𝙊𝙈𝙊𝙏𝙄𝙊𝙉 𝘼𝙑𝘼𝙄𝙇𝘼𝘽𝙇𝙀❱", url="https://t.me/FakeAlony"
             ),
         ],
+        [InlineKeyboardButton(
+             text="❰𝘾𝙇𝙊𝙎𝙀❱", callback_data="close")],
     ]
 
     return buttons
@@ -620,15 +628,17 @@ def stream_markup_timer2(_, chat_id, played, dur):
                 text="❰𝙊𝙒𝙉𝙀𝙍❱", url="https://t.me/FakeAlony"
             ),
             InlineKeyboardButton(
-                text="❰𝐀𝐋𝐋 𝐁𝐎𝐓𝐒❱", url="https://t.me/AloneXBots"
+                text="❰𝘾𝙃𝘼𝙉𝙉𝙀𝙇❱", url="https://t.me/AloneXBots"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="❰𝐏𝐑𝐎𝐌𝐎𝐓𝐈𝐎𝐍 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄❱", url="https://t.me/FakeAlony"
+                text="❰𝙋𝙍𝙊𝙈𝙊𝙏𝙄𝙊𝙉 𝘼𝙑𝘼𝙄𝙇𝘼𝘽𝙇𝙀❱", url="https://t.me/FakeAlony"
             ),
         ],
-]
+        [InlineKeyboardButton(
+             text="❰𝘾𝙇𝙊𝙎𝙀❱", callback_data="close")],
+    ]
 
     return buttons
 
