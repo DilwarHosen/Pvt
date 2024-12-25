@@ -1,4 +1,4 @@
-{
+.{
     "name": "SIDHIMUSIC",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://envs.sh/Y_T.jpg",
@@ -31,17 +31,17 @@
       },
       "EXTRA_PLUGINS": {
         "description": "if You want to load extra plugins with music plugins so fill (True)  if you don't want to load extra plugins so fill (False)",
-        "value": "True",
+        "value": "false",
         "required": false
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from `https://cloud.mongodb.com` . You can leave it blank if you want , bot will use VIP's database for you.",
-        "value": "",
+        "value": "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "7129262488",
+        "value": "7552579717",
         "required": true
       },
       "STRING_SESSION": {
@@ -61,12 +61,12 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "-1002441439611",
+        "value": "-1001603822916",
         "required": true
       },
       "AUTO_GCAST": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄:- [On/Off] 𝐅𝐎𝐑 On/Off 𝐀𝐔𝐓𝐎 𝐆𝐂𝐀𝐒𝐓/𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄.",
-        "value": "on",
+        "value": "off",
         "required": false
       },
       "AUTO_GCAST_MSG": {
@@ -76,7 +76,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/newiseland/UPREPONEW",
+        "value": "https://github.com/DilwarHosen/Pvt",
         "required": true
       },
       "UPSTREAM_BRANCH": {
