@@ -1,4 +1,4 @@
-.{
+{
     "name": "SIDHIMUSIC",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://envs.sh/Y_T.jpg",
@@ -31,7 +31,7 @@
       },
       "EXTRA_PLUGINS": {
         "description": "if You want to load extra plugins with music plugins so fill (True)  if you don't want to load extra plugins so fill (False)",
-        "value": "false",
+        "value": "False",
         "required": false
       },
       "MONGO_DB_URI": {
@@ -66,7 +66,7 @@
       },
       "AUTO_GCAST": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄:- [On/Off] 𝐅𝐎𝐑 On/Off 𝐀𝐔𝐓𝐎 𝐆𝐂𝐀𝐒𝐓/𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄.",
-        "value": "off",
+        "value": "on",
         "required": false
       },
       "AUTO_GCAST_MSG": {
@@ -99,4 +99,4 @@
               "size": "basic"
           }
       }
-  }
+}
