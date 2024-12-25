@@ -51,7 +51,7 @@
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
-        "value": "",
+        "value": "HRKU-6053d79e-6bbf-4d35-90a9-46e8afc55a3c",
         "required": false
       },
       "HEROKU_APP_NAME": {
@@ -66,7 +66,7 @@
       },
       "AUTO_GCAST": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄:- [On/Off] 𝐅𝐎𝐑 On/Off 𝐀𝐔𝐓𝐎 𝐆𝐂𝐀𝐒𝐓/𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 𝐌𝐄𝐒𝐒𝐀𝐆𝐄.",
-        "value": "on",
+        "value": "off",
         "required": false
       },
       "AUTO_GCAST_MSG": {
