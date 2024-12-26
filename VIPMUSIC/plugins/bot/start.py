@@ -305,7 +305,7 @@ async def welcome(client, message: Message):
                 out = start_pannel(_)
                 await message.reply_photo(
                     photo=photo_file,
-                    caption=_["alone_1"],
+                    caption=_["start_2"],
                     reply_markup=InlineKeyboardMarkup(out),
                 )
             if member.id in config.OWNER_ID:
