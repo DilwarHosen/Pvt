@@ -17,17 +17,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "26747396"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "7e801178e8c6f445763b4b8e02b97349")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5963562690:AAGlmIebMfd5CRi4T94u7hEfkQA6YO1ruFg")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hny:zara@cluster0.lfe5o.mongodb.net/?retryWrites=true&w=majority")
 
 
 CLEANMODE_DELETE_MINS = int(
@@ -69,7 +69,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001603822916"))
 
 
 # Your User ID.
@@ -184,7 +184,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @VIPStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQGFi9AAh-1Yi0qsnSjjRAFuFpOBmLx_WmZxhpezFabxzY_ETgXMC8aVx7ejJLCbdpbCyVSv4yAknQ8XT5RLmIT8f7wZZCF5Ab5hcWRFjXQUai7g5uMAx3pqL-SMcQAWb7JcN282rPAZ22vip9im1NaKphQOfX6LB2Ve-JbR-P--A0qSZ90FrLcib67XfBUEUZlE9FIXMRVncIBO9R5BU-bV9Rn1NPZ-ITLOPiuwgtfmlcSesRYFFT2dtnFBNuLeJyv22jDycwsOnxVCQBGjoPARvLaxMFYs3jJM0uRNQjH69ncYuh1Wgitg3fboFc9DOcsySivCK0A8qoNa8c6-wLjYlRcSMQAAAAHmljNXAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
